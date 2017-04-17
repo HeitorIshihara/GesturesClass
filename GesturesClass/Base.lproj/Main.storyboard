@@ -49,31 +49,37 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="g6u-2X-AWj">
                     <connections>
                         <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="Qqa-uL-jHx"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="tVx-7b-xjc"/>
                     </connections>
                 </panGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="iRB-Bi-UQ3">
                     <connections>
                         <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="cnD-bt-cMD"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Hy7-VF-ilo"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="Msg-2b-2u5">
                     <connections>
                         <action selector="handlePinchWithRecognizer:" destination="BYZ-38-t0r" id="Khe-ZS-r90"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="ka7-J2-WFt"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <pinchGestureRecognizer id="ZXS-MU-aTH">
                     <connections>
                         <action selector="handlePinchWithRecognizer:" destination="BYZ-38-t0r" id="yCx-Yk-sau"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="iWh-wY-gMk"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <rotationGestureRecognizer id="HZh-pl-L6u">
                     <connections>
                         <action selector="handleRotateWithRecognizer:" destination="BYZ-38-t0r" id="M4v-CE-A9h"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="8SN-1t-W2N"/>
                     </connections>
                 </rotationGestureRecognizer>
                 <rotationGestureRecognizer id="zxM-tL-qsb">
                     <connections>
                         <action selector="handleRotateWithRecognizer:" destination="BYZ-38-t0r" id="4tN-0x-TXw"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="VUy-eC-99w"/>
                     </connections>
                 </rotationGestureRecognizer>
             </objects>
