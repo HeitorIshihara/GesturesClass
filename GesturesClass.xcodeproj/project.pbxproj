@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753A85731EA54360003F27FC /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 753A856D1EA54360003F27FC /* banana.png */; };
+		753A85741EA54360003F27FC /* banana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753A856E1EA54360003F27FC /* banana@2x.png */; };
+		753A85751EA54360003F27FC /* chomp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 753A856F1EA54360003F27FC /* chomp.caf */; };
+		753A85761EA54360003F27FC /* hehehe1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 753A85701EA54360003F27FC /* hehehe1.caf */; };
+		753A85771EA54360003F27FC /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 753A85711EA54360003F27FC /* monkey.png */; };
+		753A85781EA54360003F27FC /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753A85721EA54360003F27FC /* monkey@2x.png */; };
 		75688BF61EA53FD100A78D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688BF51EA53FD100A78D70 /* AppDelegate.swift */; };
 		75688BF81EA53FD100A78D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688BF71EA53FD100A78D70 /* ViewController.swift */; };
 		75688BFB1EA53FD100A78D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75688BF91EA53FD100A78D70 /* Main.storyboard */; };
@@ -14,12 +20,6 @@
 		75688C001EA53FD100A78D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75688BFE1EA53FD100A78D70 /* LaunchScreen.storyboard */; };
 		75688C0B1EA53FD100A78D70 /* GesturesClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688C0A1EA53FD100A78D70 /* GesturesClassTests.swift */; };
 		75688C161EA53FD100A78D70 /* GesturesClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688C151EA53FD100A78D70 /* GesturesClassUITests.swift */; };
-		75688C291EA5400000A78D70 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 75688C231EA5400000A78D70 /* banana.png */; };
-		75688C2A1EA5400000A78D70 /* banana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75688C241EA5400000A78D70 /* banana@2x.png */; };
-		75688C2B1EA5400000A78D70 /* chomp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 75688C251EA5400000A78D70 /* chomp.caf */; };
-		75688C2C1EA5400000A78D70 /* hehehe1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 75688C261EA5400000A78D70 /* hehehe1.caf */; };
-		75688C2D1EA5400000A78D70 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 75688C271EA5400000A78D70 /* monkey.png */; };
-		75688C2E1EA5400000A78D70 /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75688C281EA5400000A78D70 /* monkey@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753A856D1EA54360003F27FC /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banana.png; path = ../../../../Downloads/MonkeyPinchResources/banana.png; sourceTree = "<group>"; };
+		753A856E1EA54360003F27FC /* banana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banana@2x.png"; path = "../../../../Downloads/MonkeyPinchResources/banana@2x.png"; sourceTree = "<group>"; };
+		753A856F1EA54360003F27FC /* chomp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = chomp.caf; path = ../../../../Downloads/MonkeyPinchResources/chomp.caf; sourceTree = "<group>"; };
+		753A85701EA54360003F27FC /* hehehe1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hehehe1.caf; path = ../../../../Downloads/MonkeyPinchResources/hehehe1.caf; sourceTree = "<group>"; };
+		753A85711EA54360003F27FC /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey.png; path = ../../../../Downloads/MonkeyPinchResources/monkey.png; sourceTree = "<group>"; };
+		753A85721EA54360003F27FC /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monkey@2x.png"; path = "../../../../Downloads/MonkeyPinchResources/monkey@2x.png"; sourceTree = "<group>"; };
 		75688BF21EA53FD100A78D70 /* GesturesClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75688BF51EA53FD100A78D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75688BF71EA53FD100A78D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,12 +59,6 @@
 		75688C111EA53FD100A78D70 /* GesturesClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75688C151EA53FD100A78D70 /* GesturesClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesClassUITests.swift; sourceTree = "<group>"; };
 		75688C171EA53FD100A78D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75688C231EA5400000A78D70 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banana.png; path = ../../../Downloads/MonkeyPinchResources/banana.png; sourceTree = "<group>"; };
-		75688C241EA5400000A78D70 /* banana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banana@2x.png"; path = "../../../Downloads/MonkeyPinchResources/banana@2x.png"; sourceTree = "<group>"; };
-		75688C251EA5400000A78D70 /* chomp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = chomp.caf; path = ../../../Downloads/MonkeyPinchResources/chomp.caf; sourceTree = "<group>"; };
-		75688C261EA5400000A78D70 /* hehehe1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hehehe1.caf; path = ../../../Downloads/MonkeyPinchResources/hehehe1.caf; sourceTree = "<group>"; };
-		75688C271EA5400000A78D70 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey.png; path = ../../../Downloads/MonkeyPinchResources/monkey.png; sourceTree = "<group>"; };
-		75688C281EA5400000A78D70 /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monkey@2x.png"; path = "../../../Downloads/MonkeyPinchResources/monkey@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +113,12 @@
 				75688BF71EA53FD100A78D70 /* ViewController.swift */,
 				75688BF91EA53FD100A78D70 /* Main.storyboard */,
 				75688BFC1EA53FD100A78D70 /* Assets.xcassets */,
-				75688C231EA5400000A78D70 /* banana.png */,
-				75688C241EA5400000A78D70 /* banana@2x.png */,
-				75688C251EA5400000A78D70 /* chomp.caf */,
-				75688C261EA5400000A78D70 /* hehehe1.caf */,
-				75688C271EA5400000A78D70 /* monkey.png */,
-				75688C281EA5400000A78D70 /* monkey@2x.png */,
+				753A856D1EA54360003F27FC /* banana.png */,
+				753A856E1EA54360003F27FC /* banana@2x.png */,
+				753A856F1EA54360003F27FC /* chomp.caf */,
+				753A85701EA54360003F27FC /* hehehe1.caf */,
+				753A85711EA54360003F27FC /* monkey.png */,
+				753A85721EA54360003F27FC /* monkey@2x.png */,
 				75688BFE1EA53FD100A78D70 /* LaunchScreen.storyboard */,
 				75688C011EA53FD100A78D70 /* Info.plist */,
 			);
@@ -250,15 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75688C2D1EA5400000A78D70 /* monkey.png in Resources */,
-				75688C2B1EA5400000A78D70 /* chomp.caf in Resources */,
+				753A85771EA54360003F27FC /* monkey.png in Resources */,
+				753A85751EA54360003F27FC /* chomp.caf in Resources */,
 				75688C001EA53FD100A78D70 /* LaunchScreen.storyboard in Resources */,
 				75688BFD1EA53FD100A78D70 /* Assets.xcassets in Resources */,
-				75688C2E1EA5400000A78D70 /* monkey@2x.png in Resources */,
-				75688C2A1EA5400000A78D70 /* banana@2x.png in Resources */,
-				75688C291EA5400000A78D70 /* banana.png in Resources */,
+				753A85781EA54360003F27FC /* monkey@2x.png in Resources */,
+				753A85741EA54360003F27FC /* banana@2x.png in Resources */,
+				753A85731EA54360003F27FC /* banana.png in Resources */,
 				75688BFB1EA53FD100A78D70 /* Main.storyboard in Resources */,
-				75688C2C1EA5400000A78D70 /* hehehe1.caf in Resources */,
+				753A85761EA54360003F27FC /* hehehe1.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +531,7 @@
 				75688C1C1EA53FD100A78D70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75688C1D1EA53FD100A78D70 /* Build configuration list for PBXNativeTarget "GesturesClassTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				75688C1F1EA53FD100A78D70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75688C201EA53FD100A78D70 /* Build configuration list for PBXNativeTarget "GesturesClassUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				75688C221EA53FD100A78D70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
